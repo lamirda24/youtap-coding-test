@@ -17,9 +17,9 @@ function CheckStringIsBalance(params: string): Boolean {
 
   return dataOpen.length === dataClose.length;
 }
-
 export {};
+// export { CheckStringIsBalance };
 
-let inputs = "()()";
-let doChecking = CheckStringIsBalance(inputs);
-console.log(doChecking);
+// let inputs = "()()";
+// let doChecking = CheckStringIsBalance(inputs);
+// console.log(doChecking);

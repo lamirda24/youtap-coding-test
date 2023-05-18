@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function CheckStringIsBalance(params) {
   let data = params.split("");
   /* check if input is 0 */
@@ -24,6 +22,6 @@ function CheckStringIsBalance(params) {
   return dataOpen.length === dataClose.length;
 }
 
-let inputs = "()()";
+let inputs = "(())()";
 let doChecking = CheckStringIsBalance(inputs);
 console.log(doChecking);
